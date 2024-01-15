@@ -7,6 +7,19 @@ def get_randint() -> list:
 def get_choice() -> list:
     return [choice(range(1, 45+1)) for _ in range(7)]
 
+fruits = [
+        'apple', 
+        'banana', 
+        'pineapple'
+]
+
+foods = [
+        'pasta', 
+        'pizza',
+        'stew',
+]
+
+
 if __name__=='__main__':
     print(get_randint())
     print(get_choice())
